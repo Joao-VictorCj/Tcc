@@ -1,0 +1,105 @@
+@import "./Cores.css";
+
+#body{
+background-color: var(--fundo);
+}
+
+.col{
+  margin: 0 auto;
+  margin-bottom: 35px;
+ 
+}
+.collapse{
+    background-color: var(--Nav);
+}
+.navbar{
+    height: 90px;
+    padding: 20px;
+    background-color: var(--Nav);
+    position: fixed;
+}
+.Logo{
+    margin-left: 2em;
+    margin-right: 2em;
+    object-fit: cover;
+}
+.nav-link{
+    font-size: 15px;
+}
+ .carousel-inner{
+width: 99%;
+
+margin-bottom: 30px;
+border-radius: 20px;
+ }
+.foto_escura{
+  background: #000;
+  width: 99%;
+  height: 100%;
+  opacity: 0.3;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 20px;
+  z-index: 9;
+}
+ .d-block{
+    height:22em;
+    border-radius: 20px;
+    object-fit: cover; 
+ }
+
+ .card-img-top{
+  height: 13em;
+    max-height: 15em;
+    object-fit: cover;
+ }
+/*btn-entrar*/
+.btn.btn-primary{
+  background-color: var(--Detalhes);
+  border: var(--Detalhes);
+}
+  /* buscar */
+
+  .btn-buscar{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:90px;   
+    background: var(--Detalhes);
+    color: var(--branco);
+  }
+  .d-flex{
+    background-color: rgb(255, 255, 255);
+    border:solid 2px var(--Detalhes);
+    border-radius:10px;
+    width: 19em;
+    height:36px;
+    margin-right: 2em;
+  }
+  .form-control{
+    background-color: var(--branco);
+    border:solid 1px var(--branco);
+    height:32px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  /*modal*/
+div#staticBackdrop.modal.fade.show{
+    align-items: center;
+    display: flex;
+  }
+
+.carrossel-icone{
+  z-index: 10;
+}  
+.carousel-caption{
+  z-index: 11;
+ font-style: initial;
+ font-size: 1.7em;
+}
+#carouselExampleIndicators{
+  margin-top: 100px;
+}
+.cards{
+  margin-right: 30px;
+}
