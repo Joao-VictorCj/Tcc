@@ -17,13 +17,12 @@ body {
 
 }
 
-.seta {
-    width: 2em;
-    margin: 15px 20px 0px;
-    color: var(--Detalhes);
-	z-index: 999;
+svg{
+	width: 2.2em;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: var(--Detalhes);
 }
-
 .ola{
 	font-weight: bold;
 color: var(--branco);
@@ -34,7 +33,7 @@ color: var(--branco);
 }
 .h1entrar {
 	font-weight: bold;
-	color: var(--Fonteh1);
+	color: black;
 	margin-bottom: 20px;
 }
 
@@ -125,7 +124,7 @@ button.ghost:hover{
 	flex-direction: column;
 	padding: 0 50px;
 	text-align: center;
-overflow: none;
+overflow: hidden;
 	
 }
 
@@ -171,6 +170,26 @@ input {
 	background-color: var(--branco);
 }
 
+	::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	-webkit-border-radius: 4px;
+	}
+	
+	::-webkit-scrollbar-thumb:vertical {
+	height: 5px;
+	background-color: rgba(0, 0, 0, .5);
+	-webkit-border-radius: 3px;
+	}
+	
+	::-webkit-scrollbar-thumb:horizontal {
+	width: 5px;
+	background-color: rgba(0, 0, 0, .5);
+	-webkit-border-radius: 3px;
+	}
+::-webkit-scrollbar-track {
+	display: none;
+	}
 .sign-in-container {
 	left: 0;
 	width: 50%;
@@ -225,8 +244,8 @@ input {
 
 .overlay {
 	background: var(--Detalhes);
-	background: -webkit-linear-gradient(to right, var(--Detalhes), var(--Detalhes));
-	background: linear-gradient(to right, var(--Detalhes), var(--Detalhes));
+	background: -webkit-linear-gradient(to right, var(--Container), var(--Container));
+	background: linear-gradient(to right, var(--Container),  var(--Container));
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -256,6 +275,8 @@ input {
 	width: 50%;
 	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
+	background-color: var(--Container);
+
 }
 
 .overlay-left {

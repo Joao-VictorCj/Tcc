@@ -14,9 +14,9 @@ body {
     align-items: center;
     background: var(--fundo);
 }
-.seta{
+svg{
     width: 1.7em;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     color: var(--Detalhes);
 }
 
@@ -27,7 +27,7 @@ body {
 	max-width: 100%;
 	min-height: 480px;
     background: var(--branco);
-    padding: 30px 30px;
+    padding: 15px 15px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     perspective: 2700px;
 }
@@ -59,7 +59,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: var(--Detalhes);
+    background: var(--Container);
     opacity: 0.5;
     z-index: 100;
     transform: rotateY(180deg);
@@ -136,8 +136,14 @@ body {
     font-weight: 500;
     color: #333;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
-
+svg{
+	width: 1.7em;
+	margin-bottom: 10px;
+	margin-left: 0x;
+	color: var(--Detalhes);
+}
 .forms .form-content .title:before {
     content: '';
     position: absolute;
@@ -218,7 +224,7 @@ margin: 2px 6px;
 }
 .form-content .input-box input:focus,
 .form-content .input-box input:valid {
-    border-color: var(--Detalhes);
+    border-color: none;
 }
 
 .form-content .input-box i {
