@@ -37,7 +37,7 @@ border-radius: 10px;
   margin-right: auto;
  }
 .foto_escura{
-  background: #000;
+  /* background: #000; */
   width: 100%;
   height: 100%;
   opacity: 0.3;
@@ -46,7 +46,6 @@ border-radius: 10px;
   z-index: 5; 
 }
  .d-block{
-  margin-top: 3em;
     height:20em;
     border-radius: 20px;
     object-fit: cover; 
@@ -105,51 +104,51 @@ div#staticBackdrop.modal.fade.show{
 }
 #carouselExampleIndicators{
   margin: auto;
- margin-top: 7em;
+ margin-top: 6em;
 
 }
 .carousel-indicators{
   z-index: 8;
 }
 .cards{
-  margin-left: auto;
-  margin-right: auto;
-  width: 9em;
 }
 .btn-toolbar{
-  width: 280px; 
-  border-radius: 10.2px;
-  border: solid 2px;
+  width: 279px; 
+  border-radius: 10px;
+  border: solid 0;
   margin-left:  auto;
   margin-right: auto;
   text-decoration: aliceblue;
   background-color: white;
   min-width: 100px;
-  border-color: var(--Detalhes);
+  border-color: transparent;
 }
 .btn-outline{
-  font-size: 18px;
+  font-size: 18.1px;
+  height: 46px;
+  border: solid 2px var(--Detalhes);
   min-width: 90px;
 }
 .btn-outline:hover{
   background-color: var(--Detalhes);
   margin: var(--Detalhes);
-  border-color: var(--branco);
+  border-color: var(--Detalhes);
   color: var(--branco);
 }
 .btn-outline:focus{
   background-color: var(--Detalhes);
   margin: var(--Detalhes);
-  border-color: var(--branco);
+  border-color: var(--Detalhes);
   color: var(--branco);
 }
 .navegar{
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 37.7em;
   width: 9em;
   }
 .pagination{
   color: var(--Detalhes);
+  border-radius: 0px;
 }
 .page-link{
 font-style: inherit;
@@ -157,9 +156,17 @@ color: #727272;
 
 }
 .page-item{
-  border: solid 2px;
+  border: solid 2px #835E42;
 }
 .page-link:hover{
-  background-color: var(--Detalhes);
+  background-color: #874C17;
   color: var(--branco);
+}
+#BackEnd{
+  background-color: var(--Nav);
+  color: var(--branco);
+  border-radius: 0;
+}
+#BackEnd:hover{
+  background-color: #803E17 ;
 }
