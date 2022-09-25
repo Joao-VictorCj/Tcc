@@ -3,24 +3,26 @@
 #body{
 background-color: var(--fundo);
 }
-
+.row{
+margin: 0 5em 5em auto;
+}
 .col{
-  margin-bottom: 35px;
-  float: right;
+  margin-top: 20px;
+  margin-bottom: 0px;
+    width: 22em;
+
 }
 .collapse{
     background-color: var(--Nav);
 }
 .navbar{
     height: 90px;
-    padding: 20px;
     background-color: var(--Nav);
     position: fixed;
-
     margin-bottom: 50px;
 }
 .Logo{
-    margin-left: 2em;
+    margin-left: 2.8em;
     margin-right: 2em;
     object-fit: cover;
 }
@@ -29,7 +31,6 @@ background-color: var(--fundo);
     
 }
  .carousel-inner{
-  
 width: 100%;
 margin-bottom: 30px;
 border-radius: 10px;
@@ -46,15 +47,15 @@ border-radius: 10px;
   z-index: 5; 
 }
  .d-block{
-    height:20em;
+    height:22em;
     border-radius: 20px;
     object-fit: cover; 
   width: 100%;
  }
 
  .card-img-top{
-  height: 13em;
-    max-height: 15em;
+  height: 11em;
+    max-height: 11em;
     object-fit: cover;
  }
 /*btn-entrar*/
@@ -68,7 +69,8 @@ border-radius: 10px;
     border:none;
     float:left;
     height:32px;
-    border-radius:0 7px 7px 0;
+    border: solid 3px var(--Detalhes);
+    border-radius:0 5px 5px 0;
     width:90px;   
     background: var(--Detalhes);
     color: var(--branco);
@@ -80,7 +82,7 @@ border-radius: 10px;
     border-radius:10px;
     width: 19em;
     height:36px;
-    margin-right: 2em;
+    margin-right: 2.8em;
   }
   .form-control{
     background-color: var(--branco);
@@ -103,21 +105,18 @@ div#staticBackdrop.modal.fade.show{
  font-size: 1.7em;
 }
 #carouselExampleIndicators{
-  margin: auto;
- margin-top: 6em;
-
+ margin-top: 10em;
+margin: 0 auto;
+margin-top: 6em;
 }
 .carousel-indicators{
   z-index: 8;
-}
-.cards{
 }
 .btn-toolbar{
   width: 279px; 
   border-radius: 10px;
   border: solid 0;
-  margin-left:  auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-decoration: aliceblue;
   background-color: white;
   min-width: 100px;
@@ -132,7 +131,7 @@ div#staticBackdrop.modal.fade.show{
 .btn-outline:hover{
   background-color: var(--Detalhes);
   margin: var(--Detalhes);
-  border-color: var(--Detalhes);
+  border-color: var(--fundo);
   color: var(--branco);
 }
 .btn-outline:focus{
@@ -142,8 +141,7 @@ div#staticBackdrop.modal.fade.show{
   color: var(--branco);
 }
 .navegar{
-  margin-left: auto;
-  margin-right: 37.7em;
+margin-left: 36em;
   width: 9em;
   }
 .pagination{

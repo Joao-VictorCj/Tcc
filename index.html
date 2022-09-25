@@ -20,7 +20,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contatos</a>
+                <a class="nav-link" href="#">Como ajudar</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -28,9 +28,9 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Contatos</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Responsaveis</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Razão social</a></li>
                 </ul>
               </li>
               <a class="btn btn-primary" href="indexCadastro.html" role="button">Entrar</a>
@@ -43,7 +43,7 @@
         </div>
       </nav>    
       <br>
-      <div id="carouselExampleIndicators" class="carousel slide col-10 mx-auto" data-bs-ride="true">
+      <div id="carouselExampleIndicators" class="carousel slide col-11" data-bs-ride="true">
         <div class="carousel-indicators ">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -52,21 +52,21 @@
         <div class="foto_escura"></div>
         <div class="carousel-inner" >
           <div class="carousel-item active">
-            <img src="imgs/1920x1080-pets-rotina-660x372.png" class="d-block w-30" alt="...">   
+            <img src="img/cathorroa.jpg" class="d-block w-100" alt="...">   
             <div class="carousel-caption d-none d-md-block">
               <h5>Projeto 4 patas</h5>
               <p>O olhar do seu cachorro e o melhor espelho da grandeza da sua alma.</p>
             </div>       
           </div>
           <div class="carousel-item">
-            <img src="imgs/1920x1080-pets-rotina-660x372.jpg" class="d-block w-100" alt="...">
+            <img src="img/cathorroa.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Projeto 4 patas</h5>
               <p>O olhar do seu cachorro e o melhor espelho da grandeza da sua alma.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imgs/pet.jpg" class="d-block w-100" alt="...">
+            <img src="img/cathorroa.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Projeto 4 patas</h5>
               <p>O olhar do seu cachorro e o melhor espelho da grandeza da sua alma.</p>
@@ -84,14 +84,14 @@
       </div>
       <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group me-2" role="group" aria-label="First group">
-          <button type="button" class="btn btn-outline">Todos</button>
+          <button type="button" class="btn btn_todos btn-outline" id="botao">Todos</button>
           <button type="button" class="btn btn-outline"> Cachorro     </button>
 
           <button type="button" class="btn btn-outline">Gato    </button>
         </div>
       </div>
-      
-      <div class="row row-cols-1 row-cols-md-4 g-3 col-10 m-auto">
+    
+      <div class="row row-cols-2 row-cols-md-3 col-10">
         <div class="col">
           <div class="card">
             <img src="img/c6ccc06e-3425-4f40-aaa2-c92228a086d1.jfif" class="card-img-top" alt="...">
@@ -127,7 +127,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="img/dogzaum.jfif" class="card-img-top" alt="...">
+            <img src="imgs/cachorro1.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Rogerio</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -226,6 +226,7 @@
   Ver mais
 </button>
 
+
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -248,7 +249,73 @@
             </div>
           </div>
         </div>
+        <div class="col">
+          <div class="card">
+            <img src="imgs/gato2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rogerio</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Ver mais
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Rogerio</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+        <img src="imgs/dog 2.jpg" class="img-thumbnail" alt="...">
+        This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+        <button type="button" class="btn btn-primary">Adotar</button>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="imgs/gato3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rogerio</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Ver mais
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Rogerio</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="imgs/dog 2.jpg" class="img-thumbnail" alt="...">
+        This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+        <button type="button" class="btn btn-primary">Adotar</button>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>  
       <nav class="navegar" aria-label="Page navigation example">
         <ul class="pagination">
           <li class="page-item">
@@ -267,5 +334,6 @@
         </ul>
       </nav>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+  <script src="inicial.js" > </script>
+    </body>
 </html>
